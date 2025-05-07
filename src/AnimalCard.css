@@ -1,0 +1,98 @@
+.animal {
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.new-animal {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+.animal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.animal-img {
+    border-radius: 10px 10px 0 0;
+    max-width: 100%;
+    aspect-ratio: 1.5 / 1;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+.animal-info {
+    padding: 0 10px 0 10px;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.animal-desc {
+    text-align: left;
+    padding: 0 20px 0 20px;
+}
+
+.animal-nombre {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+.animal-nombreCientifico {
+    color: #242cc1;
+    font-size: 0.8em;
+    text-decoration: underline;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+.animal-wiki {
+    background-color: #3a3a3a;
+}
+
+.animal-ubi {
+    background-color: #4a5a00;
+}
+
+.animal-mostrar-mas {
+    font-weight: 500;
+    color: #404040;
+    text-decoration: underline;
+}
+
+.animal-mostrar-mas:hover {
+    color: #4b4b4b;
+}
+
+.animal-boton {
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+    padding: 8px 20px;
+    margin: 20px 5px 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.animal-wiki:hover {
+    color: #ffffff;
+    background-color: #161616;
+}
+
+.animal-ubi:hover {
+    color: #ffffff;
+    background-color: #2e3800;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

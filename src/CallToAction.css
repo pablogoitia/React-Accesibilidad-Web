@@ -1,0 +1,38 @@
+.call-to-action {
+    background-color: rgb(27, 27, 27);
+    color: #ffffff;
+    padding: 50px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 20px 20px 20px;
+}
+
+.cta-text {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cta-subtext {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.cta-boton {
+    color: #ffffff;
+    background-color: #4a5a00;
+    display: inline-block;
+    border: none;
+    padding: 8px 20px;
+    margin: 20px 5px 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-boton:hover {
+    color: #ffffff;
+    background-color: #2e3800;
+}

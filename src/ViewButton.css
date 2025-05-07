@@ -1,0 +1,22 @@
+.load-more {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.load-boton {
+    color: #ffffff;
+    background-color: rgb(26, 26, 26);
+    display: inline-block;
+    border: none;
+    padding: 8px 20px;
+    margin: 20px 5px 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.load-boton:hover {
+    color: #ffffff;
+    background-color: #4a5a00;
+}
